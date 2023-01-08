@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portifolio - Contato</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../../cabecalho.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="text__border">
+      <header>
+        <a class="nome__header" href="../../index.html"
+          >JOÃO PEDRO VIEIRA BRODT</a
+        >
+        <ul class="lista__header">
+          <li class="item__header">
+            <a class="item__header" href="../sobre/sobre.html">Sobre</a>
+          </li>
+          <li class="item__header">
+            <a class="item__header" href="../projetos/projetos.html"
+              >Projetos</a
+            >
+          </li>
+          <li class="item__header">
+            <a class="item__header link__clicado" href="contato.html"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <div class="uniao">
+      <div class="descricao">
+        <h1 class="titulo__descricao">Fale comigo</h1>
+        <hr />
+        <p>
+          <img
+            class="icon__text"
+            src="../../images/Logos/email.png"
+            alt=""
+          />brodt.joao@usp.br
+        </p>
+        <p>
+          <img class="icon__text" src="../../images/Logos/mapa.png" alt="" />
+          Ribeirão Preto - SP
+        </p>
+      </div>
+
+      <div class="wrapper">
+        <div class="inner">
+          <form>
+            <label class="form-group">
+              <input id="nome" type="text" class="form-control" required />
+              <span>Nome</span>
+            </label>
+            <label class="form-group">
+              <input id="email" type="text" class="form-control" required />
+              <span for="">Email</span>
+            </label>
+            <label class="form-group ">
+              <input
+                id="mensagem"
+                class="form-control form-control-mensagem"
+                maxlength="267"
+                required
+              ></input>
+              <span for="">Mensagem</span>
+            </label>
+            <button type="submit">
+              Enviar
+              <i class="zmdi zmdi-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../images/fundo.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+}
+
+.text__border {
+  margin: 0 5em;
+}
+
+.foto__perfil {
+  border-radius: 100%;
+  width: 15%;
+  display: inline;
+  margin-left: 25%;
+}
+
+.icon__text {
+  width: 4%;
+  padding-right: 0.5em;
+}
+.item__sobre {
+  padding: 0.5em 0;
+}
+.texto__sobre {
+  display: inline-block;
+  padding-left: 2em;
+  width: 50%;
+}
+h1 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.text__middle {
+  padding: 4em 8em;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.curso,
+.linguagem {
+  padding: 1em 0;
+}
+.formacao,
+.habilidade,
+.experiencia {
+  border: 1px solid white;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 10px;
+}
+.text__middle h3 {
+  font-weight: 100;
+  font-size: 32px;
+  padding-bottom: 0.75em;
+  text-align: center;
+  font-weight: 800;
+}
+.text__middle h4 {
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,86 @@
+@media screen and (min-width: 0) {
+}
+.foto__perfil {
+  display: none;
+}
+.lista__socialmedia {
+  margin-top: 10em;
+}
+.item__socialmedia {
+  padding-right: 7rem;
+  padding-top: 5em;
+}
+.logo__socialmedia {
+  width: 300%;
+}
+
+.descricao {
+  display: inline-block;
+  color: white;
+  margin-left: 5em;
+  margin-top: 25em;
+}
+
+.descricao h2,
+.descricao h4 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.descricao h1 {
+  font-size: 60px;
+}
+
+.item__header {
+  font-size: 28px;
+}
+.lista__header {
+  margin-left: 10%;
+}
+.nome__header {
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+  .foto__perfil {
+    display: flex;
+  }
+  .lista__socialmedia {
+    margin-top: 0.2em;
+  }
+  .item__socialmedia {
+    padding-top: 1em;
+  }
+  .logo__socialmedia {
+    width: 100%;
+  }
+  .descricao {
+    display: inline-block;
+    color: white;
+    margin-left: 0em;
+    margin-top: 4em;
+  }
+  .descricao h1 {
+    font-size: 40px;
+  }
+
+  .descricao h2,
+  .descricao h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  .item__header {
+    font-size: 28px;
+  }
+  .lista__header {
+    margin-left: 10%;
+  }
+  .nome__header {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}

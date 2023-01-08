@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/fundo.jpg") repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  font-family: "Maven Pro", sans-serif;
+}
+.geral {
+  margin: 0 5em;
+}
+.socialmedia {
+  display: inline;
+}
+.logo__socialmedia {
+  width: 100%;
+}
+.lista__socialmedia {
+  color: white;
+  list-style-type: none;
+  padding-bottom: 1em;
+  display: inline-block;
+  padding-top: 3em;
+}
+.item__socialmedia {
+  padding-bottom: 1.5em;
+}
+
+.descricao {
+  display: inline-block;
+  color: white;
+  margin-left: 5em;
+  vertical-align: top;
+  clear: right;
+}
+.descricao h1,
+.descricao h2,
+.descricao h4 {
+  text-transform: uppercase;
+}
+.descricao h1 {
+  font-size: 60px;
+  padding: 0.5em 0;
+}
+
+.foto__perfil {
+  width: 25%;
+  position: absolute;
+  bottom: 35%;
+  left: 70%;
+  transform: translate(-63%, 20%);
+}
